@@ -21,7 +21,7 @@ export function addComment(postId, author, comment){
 	}
 }
 
-//remove post comment
+//removes the comment element (i) from a particular post (postId)
 export function removeComment(postId, i){
 	return{
 		type: REMOVE_COMMENT,

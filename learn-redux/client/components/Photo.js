@@ -9,6 +9,7 @@ const Photo = (props) => {
 			<div className="grid-photo-wrap">
 				<Link to={`view/${props.post.code}`}>
 					<img src={props.post.display_src} alt={props.post.caption} className="grid-photo"/>
+					<h1>hello</h1>
 				</Link>
 				{/*I believe this was removed from react and is now in react-transition-group*/}
 				<CSSTransitionGroup
