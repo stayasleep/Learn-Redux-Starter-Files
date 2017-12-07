@@ -3,6 +3,7 @@ import { INCREMENT_LIKES, ADD_COMMENT, REMOVE_COMMENT } from './types';
 
 //increment likes
 export function increment(index){
+	console.log('incrementing',index);
 	return{
 		type: INCREMENT_LIKES,
 		index: index

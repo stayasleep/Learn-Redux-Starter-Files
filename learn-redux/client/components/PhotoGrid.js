@@ -9,7 +9,7 @@ const PhotoGrid = (props) => {
 				{/*{JSON.stringify(props.posts,null,' ')}*/}
 				{/*Consider passing down only props that Photo needs, and not all of them*/}
 				{props.posts.map((post, index) =>{
-					return <Photo key={index} post={post} {...props}/>
+					return <Photo key={index} post={post} i={index} {...props}/>
 				})}
 			
 		</div>
