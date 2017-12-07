@@ -11,7 +11,7 @@ const Single = (props) => {
 	return(
 		<div className="single-photo">
 			<Photo i={i} post={props.posts[i]} {...props} />
-			<Comments postComments={props.comments[props.params.postId] || []}/>
+			<Comments postComments={props.comments[props.params.postId] || []} {...props}/>
 		</div>
 		
 	)
